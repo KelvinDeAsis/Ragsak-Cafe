@@ -52,3 +52,8 @@ Static delivery keeps loading fast and business content easy to review. It requi
 ## Design reference
 
 https://delice.ca/ was studied for editorial type scale, saturated color, organic photo framing, compact navigation, and restrained motion. Ragsak’s composition, copy, logo, and photography are original to this implementation or drawn from the official sources above.
+
+## Review completed
+
+Desktop reviewed at 1440×1000; mobile at 390×844 and 320×812. Verified menu/visit navigation, visible keyboard focus, all image loading, zero horizontal overflow, and no browser console errors. Static checks passed for 35 links, local asset references, alt text/image dimensions, and JSON-LD. Primary text contrast ratios: brown/orange 5.16:1, brown/cream 14.06:1, cream/red 9.27:1. Reduced-motion handling checked in CSS and JavaScript. The site has no tracking or embedded social widgets. Font licenses are included in font-licenses.txt.
+
