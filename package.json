@@ -1,0 +1,12 @@
+{
+  "name": "ragsak-manila-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ragsak Manila Cafe static website",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "sync:csp": "node scripts/sync-csp.mjs",
+    "check": "node scripts/check-site.mjs && node --test tests/site.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

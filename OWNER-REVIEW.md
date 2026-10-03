@@ -2,6 +2,8 @@
 
 Public profiles checked on October 1, 2026 (Asia/Shanghai). This is a private review website. Review the items below before sharing publicly.
 
+Follow-up review on October 4, 2026: Facebook blocked fresh fetching and Instagram throttled it. The business details below remain the previously recorded evidence, not a fresh confirmation. The website now labels hours as previously listed and visibly warns that the photographed menu contains historical prices. See `REVIEW-REPORT.md` and `DEPLOYMENT-GUIDE.md` for the release checks and public-launch steps.
+
 ## Confirm with the owner
 
 1. **Complete menu and availability:** The site transcribes only the Croissant Collection verified in an official photographed menu. Obtain the current complete food/drinks menu, approve exact dish descriptions, and confirm availability at the listed location. Prices are omitted from site text; the source menu photograph contains its published prices and is not a promise of current pricing.
