@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1200" height="690" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1200 690" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1200" height="690"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-690)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1200" height="690" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,95%,87%); fill-rule: evenodd;"/>
+			<text x="40" y="652" style="font-family: BodyBold; font-size: 30px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,1304) scale(1,-1)">Visitor and runtime flow</text>
+			<text x="40" y="614" style="font-family: Body; font-size: 19px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,1228) scale(1,-1)">Core reading and navigation work before optional enhancement.</text>
+			<rect x="40" y="420" width="300" height="115" rx="14" ry="14" style="stroke: rgb(23%,10%,8%); stroke-linecap: butt; stroke-width: 2; fill: rgb(23%,10%,8%); fill-rule: evenodd;"/>
+			<text x="60" y="501" style="font-family: BodyBold; font-size: 23px;fill: rgb(100%,95%,87%); stroke:none;" transform="translate(0,1002) scale(1,-1)">1. Request website</text>
+			<text x="60" y="470" style="font-family: Body; font-size: 19px;fill: rgb(100%,95%,87%); stroke:none;" transform="translate(0,940) scale(1,-1)">Host checks private access</text>
+			<text x="60" y="445" style="font-family: Body; font-size: 19px;fill: rgb(100%,95%,87%); stroke:none;" transform="translate(0,890) scale(1,-1)">Returns static page</text>
+			<rect x="450" y="420" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="470" y="501" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,1002) scale(1,-1)">2. Render content</text>
+			<text x="470" y="470" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,940) scale(1,-1)">Local CSS, fonts, images</text>
+			<text x="470" y="445" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,890) scale(1,-1)">Responsive layout + links</text>
+			<rect x="860" y="420" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="880" y="501" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,1002) scale(1,-1)">3. Optional enhancement</text>
+			<text x="880" y="470" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,940) scale(1,-1)">Copyright year</text>
+			<text x="880" y="445" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,890) scale(1,-1)">Motion/API availability</text>
+			<rect x="40" y="150" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="60" y="231" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,462) scale(1,-1)">Readable fallback</text>
+			<text x="60" y="200" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,400) scale(1,-1)">No site JS / API failure</text>
+			<text x="60" y="175" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,350) scale(1,-1)">Cards remain visible</text>
+			<rect x="450" y="150" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="470" y="231" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,462) scale(1,-1)">Visitor chooses action</text>
+			<text x="470" y="200" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,400) scale(1,-1)">Section, menu, call</text>
+			<text x="470" y="175" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,350) scale(1,-1)">Directions or source post</text>
+			<rect x="860" y="150" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="880" y="231" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,462) scale(1,-1)">Reveal behavior</text>
+			<text x="880" y="200" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,400) scale(1,-1)">Viewport or keyboard focus</text>
+			<text x="880" y="175" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,350) scale(1,-1)">Reduced motion restores all</text>
+			<path d="M 340,478 L 450,478 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="450 478, 437 472, 437 484" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="355" y="500" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,1000) scale(1,-1)">HTTPS</text>
+			<path d="M 750,478 L 860,478 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="860 478, 847 472, 847 484" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="762" y="500" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,1000) scale(1,-1)">deferred JS</text>
+			<path d="M 600,420 L 600,265 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="600 265, 594 278, 606 278" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="615" y="339" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,678) scale(1,-1)">links available</text>
+			<path d="M 1010,420 L 1010,265 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="1010 265, 1004 278, 1016 278" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="1025" y="339" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,678) scale(1,-1)">when enabled</text>
+			<path d="M 880,420 L 880,380 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3; stroke-dasharray: 7, 5;"/>
+			<path d="M 880,380 L 190,380 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3; stroke-dasharray: 7, 5;"/>
+			<path d="M 190,380 L 190,265 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3; stroke-dasharray: 7, 5;"/>
+			<polygon points="190 265, 184 278, 196 278" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="200" y="354" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,708) scale(1,-1)">unsupported or failed enhancement</text>
+			<text x="40" y="30" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,60) scale(1,-1)">Outbound actions delegate to the browser/device; no visitor record is written by this application.</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1200" height="760" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1200" height="760"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-760)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1200" height="760" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,95%,87%); fill-rule: evenodd;"/>
+			<text x="40" y="722" style="font-family: BodyBold; font-size: 30px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,1444) scale(1,-1)">Conceptual content model</text>
+			<text x="40" y="684" style="font-family: Body; font-size: 19px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,1368) scale(1,-1)">These are content relationships, not implemented database tables.</text>
+			<rect x="450" y="515" width="300" height="115" rx="14" ry="14" style="stroke: rgb(23%,10%,8%); stroke-linecap: butt; stroke-width: 2; fill: rgb(23%,10%,8%); fill-rule: evenodd;"/>
+			<text x="470" y="596" style="font-family: BodyBold; font-size: 23px;fill: rgb(100%,95%,87%); stroke:none;" transform="translate(0,1192) scale(1,-1)">Cafe</text>
+			<text x="470" y="565" style="font-family: Body; font-size: 19px;fill: rgb(100%,95%,87%); stroke:none;" transform="translate(0,1130) scale(1,-1)">Identity, visit details</text>
+			<text x="470" y="540" style="font-family: Body; font-size: 19px;fill: rgb(100%,95%,87%); stroke:none;" transform="translate(0,1080) scale(1,-1)">Official social references</text>
+			<rect x="40" y="310" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="60" y="391" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,782) scale(1,-1)">Page section</text>
+			<text x="60" y="360" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,720) scale(1,-1)">Heading, copy, actions</text>
+			<text x="60" y="335" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,670) scale(1,-1)">HTML landmark and ID</text>
+			<rect x="450" y="310" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="470" y="391" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,782) scale(1,-1)">Menu item</text>
+			<text x="470" y="360" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,720) scale(1,-1)">Verified name + description</text>
+			<text x="470" y="335" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,670) scale(1,-1)">Manual HTML content</text>
+			<rect x="860" y="310" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="880" y="391" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,782) scale(1,-1)">Asset</text>
+			<text x="880" y="360" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,720) scale(1,-1)">WebP / WOFF2 variants</text>
+			<text x="880" y="335" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,670) scale(1,-1)">Alt text, dimensions, crop</text>
+			<rect x="40" y="85" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="60" y="166" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,332) scale(1,-1)">Action</text>
+			<text x="60" y="135" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,270) scale(1,-1)">Anchor, image, phone</text>
+			<text x="60" y="110" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,220) scale(1,-1)">Map or social destination</text>
+			<rect x="450" y="85" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="470" y="166" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,332) scale(1,-1)">Release</text>
+			<text x="470" y="135" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,270) scale(1,-1)">Source SHA + archive</text>
+			<text x="470" y="110" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,220) scale(1,-1)">Version, status, audience</text>
+			<rect x="860" y="85" width="300" height="115" rx="14" ry="14" style="stroke: rgb(89%,84%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="880" y="166" style="font-family: BodyBold; font-size: 23px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,332) scale(1,-1)">Source evidence</text>
+			<text x="880" y="135" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,270) scale(1,-1)">Original URL + observation</text>
+			<text x="880" y="110" style="font-family: Body; font-size: 19px;fill: rgb(23%,10%,8%); stroke:none;" transform="translate(0,220) scale(1,-1)">Owner-review status</text>
+			<path d="M 450,570 L 190,425 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="190 425, 198.4313 436.5721, 204.2761 426.0917" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="255" y="525" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,1050) scale(1,-1)">contains</text>
+			<path d="M 340,370 L 450,370 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="450 370, 437 364, 437 376" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="352" y="386" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,772) scale(1,-1)">displays</text>
+			<path d="M 750,370 L 860,370 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="860 370, 847 364, 847 376" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="782" y="386" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,772) scale(1,-1)">uses</text>
+			<path d="M 190,310 L 190,200 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="190 200, 184 213, 196 213" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="205" y="246" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,492) scale(1,-1)">offers</text>
+			<path d="M 1010,310 L 1010,200 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="1010 200, 1004 213, 1016 213" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="1020" y="246" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,492) scale(1,-1)">attributed to</text>
+			<path d="M 600,200 L 600,310 Z" style="stroke: rgb(98%,40%,11%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="600 310, 606 297, 594 297" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,40%,11%); fill-rule: evenodd;"/>
+			<text x="612" y="246" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,492) scale(1,-1)">snapshots source</text>
+			<text x="40" y="30" style="font-family: Body; font-size: 18px;fill: rgb(43%,36%,32%); stroke:none;" transform="translate(0,60) scale(1,-1)">A release fixes the source state; it does not establish that business facts remain current.</text>
+		</g>
+	</g>
+</svg>

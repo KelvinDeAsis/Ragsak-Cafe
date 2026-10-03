@@ -1,0 +1,37 @@
+[
+  {
+    "actual": "#menu",
+    "expected": "menu",
+    "target": "menu"
+  },
+  {
+    "actual": "#experience",
+    "expected": "experience",
+    "target": "experience"
+  },
+  {
+    "actual": "#gallery",
+    "expected": "gallery",
+    "target": "gallery"
+  },
+  {
+    "actual": "#visit",
+    "expected": "visit",
+    "target": "visit"
+  },
+  {
+    "actual": "#menu-details",
+    "expected": "menu-details",
+    "target": "menu-details"
+  },
+  {
+    "actual": "#visit",
+    "expected": "visit",
+    "target": "visit"
+  },
+  {
+    "actual": "#home",
+    "expected": "home",
+    "target": "home"
+  }
+]
