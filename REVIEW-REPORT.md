@@ -1,44 +1,31 @@
-# Website review — October 4, 2026
+# Ragsak redesign review
 
-Reviewed the complete Ragsak static website: source, navigation, content/source records, security exposure, accessibility, responsive layouts, image loading, metadata, local preview, and deployment configuration. The established orange, cream, red, and brown design is preserved.
+October 4, 2026. Reviewed the local files and browser preview; this update has not been pushed or deployed. Previous release evidence is preserved in `Docs/reference` and the archived handbook.
 
-## Issues fixed
+## Changes and checks
 
-| Finding | Change |
-|---|---|
-| The hero preloaded a fixed 960px image even when a mobile browser selected the 480px candidate | Preload now matches the hero's responsive candidates and size hints. Mobile selection verified as `coffee-480.webp`. |
-| Gallery images lacked responsive candidates on wider/dense screens | Added matching local WebP srcsets and layout-specific size hints. |
-| A focused card could remain invisible while awaiting its reveal animation | Keyboard focus reveals the card in both CSS and JavaScript. Observation failures restore all content. |
-| Motion preference was only checked at page load | Switching to reduced motion restores pending cards and disconnects observation. Print rules expose every card. |
-| Skip target was not explicitly focusable | The main landmark now accepts focus; Enter on Skip to content was verified to focus `main`. |
-| Repeated and conflicting mobile navigation rules made changes fragile | Consolidated mobile navigation, retained the visible logo and four links, and increased link hit areas. |
-| Small text and intrinsic grid sizing caused horizontal overflow when text was doubled | Converted font sizes to relative units, allowed grid items to shrink/wrap, and wrapped social/footer rows. |
-| The historical menu photo could imply current prices | Added a visible caution associated with the menu-photo link. |
-| The website said hours were currently listed without a fresh verification | Changed wording to “Previously listed” and kept the call-to-confirm guidance. |
-| Footer logo repeated the accessible link name | Logo is decorative within the already named home link. |
-| Static hosting had no explicit missing-page behavior | Added a branded 404 page and configured `404-page` handling. |
-| Business structured data omitted the actual website/menu URL | Added URLs and verified alignment with the canonical URL. No unconfirmed opening days, branches, coordinates, or prices were added. |
-| Content had no explicit browser resource policy | Added a restrictive meta CSP and a structured-data hash, plus a referrer policy. This is a document policy, not a substitute for host-level security headers. |
-| Future releases had no repeatable checks or local workflow | Added dependency-free local preview, static validation, eight regression tests, and an editing/deployment guide. |
+The site now has a viewport-filling landing-page hero, aligned navigation, concise linked menu preview, a separate accessible photographed menu, an atmosphere-focused café section, responsive outbound links, and a privacy page. All pages include the exact concept disclaimer. No booking/ordering service or active reservation control is added.
 
-## Verification
+`npm run check` validates all four HTML pages, 105 link/resource references, 14 image elements, 34 local files, cross-page fragments, menu/source synchronization, image text/dimensions, security policies and the exact footer disclaimer. Eleven behavior tests cover scroll reveals, keyboard focus, observer/API failure, reduced motion, desktop/mobile outbound targets and media-query changes.
 
-- `npm run check`: HTML anchors/assets/metadata pass; eight animation and accessibility fallback tests pass.
-- 11 image elements and all referenced local image/font/script/style assets exist. Font licenses are retained.
-- Browser layouts checked at 320, 390, 700, approximately 701/702, 768, 1024, 1440, and 1920 pixels. No content overflow in normal layouts. Intentional clipped decorative ribbon text is excluded.
-- Text doubled through the local QA stylesheet, including body text, checked at 320, 390, 768, 1024, and 1440 pixels. No content clips; the 768px result has a one-pixel rounding extension in page width.
-- All seven internal navigation actions resolve to the expected anchors. The menu photograph opens and browser Back returns to the menu section.
-- Without the site JavaScript, cards remain visible and menu navigation works. Eight regression tests cover viewport entry, keyboard focus, preference changes, missing APIs, and observer failures.
-- Image loading and gallery responsive selection were reviewed in the browser. No browser errors or CSP violations appeared on reviewed routes.
-- Primary color pairs retain approximately 5.16:1 brown/orange, 14.06:1 brown/cream, and 9.27:1 cream/red contrast.
-- Local 404/error responses and the packaged archive are checked during release preparation. Deployment is considered complete only on a successful native hosting result.
+Browser validation used installed Playwright and headless Chrome because the agent-browser CLI was unavailable. It inspected landing/menu/privacy pages at 17 viewports (51 page/viewport combinations): 320×568, 360×640, 375×667, 390×844, 412×915, 430×932, 568×320, 667×375, 740×360, 768×1024, 820×1180, 1024×768, 1280×720, 1366×768, 1440×900, 1536×864, and 1920×1080. The hero ends at or below the initial viewport boundary; no next section peeks into view. Hero content and scroll cue fit on these normal screens. No horizontal overflow or browser console errors were found after fixes.
 
-## Remaining content checks
+Additional checks exercise desktop, mobile and a landscape touch device: keyboard skip navigation, native smooth scrolling, same-tab menu navigation, all seven category links, full-size menu photo disclosure, loaded photos/reveals, phone hrefs, privacy navigation, and external Instagram/Facebook/map clicks. Desktop clicks retain the original tab; mobile clicks support browser Back. Destination responses were intercepted for repeatable navigation testing: these checks prove tab behavior, not provider uptime or login access. Telephone links were inspected without placing a real call; the OS must provide its calling handler.
 
-Facebook blocked fresh fetching and Instagram throttled it on October 4. Existing business evidence from October 1 remains recorded in `OWNER-REVIEW.md`; this review does not claim fresh verification. Confirm address, phone, opening days/hours, menu/prices/availability, and photo/logo reuse with the cafe before a customer launch.
+Enlarged-text checks at 200% passed on all three pages at widths 320, 390, 768 and 1440 with no horizontal overflow. Navigation wraps to additional rows when needed. Six additional page checks cover no-JavaScript and reduced-motion operation, and the missing-page route returns a branded 404 with a privacy link. Enlarged text may extend the hero naturally; it is not clipped to a fixed height. No JavaScript leaves external links usable in the current tab. Browser checks observed zero cookies, zero local/session storage entries, and no outbound requests on normal page loads. Actual Cloudflare dashboard settings and logs are outside the inspected files.
 
-The existing audience remains private. Private noindex/robots directives are intentional and must change together when public sharing is requested. A social-preview image is optional and was not generated during this review. Booking, ordering, payments, and forms are outside the site's existing capabilities.
+Evidence: `Docs/evidence/redesign-responsive.json`, `redesign-interactions.json`, `redesign-desktop.png`, `redesign-mobile.png`, `redesign-menu-desktop.png`, and `redesign-menu-mobile.png`. See the evidence reports for exact measurements and limitations.
 
-This is a source and browser review, not a penetration test, screen-reader certification, or measured field Core Web Vitals report. No Lighthouse score or production traffic/performance measurement is claimed.
+Phase 3 follow-up: eight viewport sizes from 320×568 to 1920×1080 passed with 32 photo loads, equal card frame heights, correct responsive sources, proportional framing, no horizontal overflow, and no console errors. Six desktop/mobile category clicks reached the corresponding menu sections in the same tab. Reduced-motion, no-script and two 200% text checks passed. Desktop and mobile section screenshots were visually inspected; this review also corrected missing spaces when mobile hides card-heading line breaks. The source checks and all 11 regression tests passed again. Current evidence is `Docs/evidence/phase3-responsive.json`, `phase3-assets.json` and four `phase3-*.png` section screenshots. Earlier full-page screenshots describe the preceding photo selection.
 
-Screenshots and raw viewport/navigation observations are in the ignored local `artifacts/` directory. They are not included in the website's public assets.
+## Facts/assets still needing confirmation
+
+The phase 3 update replaces all three menu preview photos and the atmosphere photo using four supplied files. Coffee, rice plates and a croissant dessert illustrate broad existing menu categories without identifying named items or ingredients. The lamp-and-table image accompanies new “Make time to gather” copy focused on the shared-table experience. Original files are preserved; proportional 480/960 px WebP files (plus 1152 px for atmosphere) use responsive lazy loading and accurate alt text. Exact item names, ingredients, provenance and branch remain unverified; see [the photo review checklist](Docs/PHASE-3-PHOTOS.md).
+
+The latest user-selected hero is `images/menu/ragsak bg.jpg`, showing the illuminated café wall sign. The original is preserved, with locally served 640/960/1536 px WebP variants. The former coffee-photo composition was replaced with a dark, edge-to-edge editorial hero: a photograph fading into a readable content area, large serif headline, orange accent, clear menu/directions actions, and a fine divider with a native scroll cue. The homepage navigation uses matching dark colors; other pages retain their existing palette. No award or official-site status is claimed.
+
+Short entrance animations use only transform and opacity, do not hide the controls, and are disabled by reduced-motion settings. Portrait mobile uses contain framing to preserve the whole sign; short landscape uses the photograph as a dim background behind compact content. Hero preload, alt text and dimensions were updated together. Follow-up checks at 17 sizes confirm the image loads, controls fit, no horizontal overflow occurs, and the next section stays below the initial viewport. Enlarged-text, no-script, reduced-motion and link click checks also passed. See `Docs/evidence/hero-replacement.json` and the refreshed screenshots.
+
+Initial Instagram web fetching was throttled, then direct browser access succeeded. Three official photo/reel captions were reviewed, corroborating the Maceda phone/address and broad food/drink offering. A September 4 official reel is linked from the atmosphere section without embedding it. Instagram’s bio and posts contain conflicting closing times; no schedule is inferred. Facebook blocked fresh fetching, and previous official photo provenance remains recorded with its source date.
+
+The supplied menu photos contain conflicting hours, no currency symbol and an uncertain frappé spelling. Owner confirmation is needed for current prices/availability, currency, opening days/hours, exact spelling, intended branch scope, and photo/logo reuse permissions (including @wtg_quests). The actual Cloudflare domain and host-level privacy settings still need checking. [Docs/WEBSITE-UPDATE.md](Docs/WEBSITE-UPDATE.md) lists the action items and future reservation requirements.

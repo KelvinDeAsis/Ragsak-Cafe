@@ -29,10 +29,10 @@ http.createServer(async (req, res) => {
   }
   try {
     let data = await readFile(file);
-    if (pathname === '/' && query.get('qa') === 'text200') {
+    if (path.extname(file) === '.html' && query.get('qa') === 'text200') {
       data = Buffer.from(data.toString().replace('</head>', '<link rel="stylesheet" href="/__qa__/text-200.css"></head>'));
     }
-    if (pathname === '/' && query.get('qa') === 'nojs') {
+    if (path.extname(file) === '.html' && query.get('qa') === 'nojs') {
       data = Buffer.from(data.toString().replace('<script src="site.js" defer></script>', ''));
     }
     res.writeHead(200, { 'Content-Type': mime[path.extname(file)] || 'application/octet-stream', 'X-Content-Type-Options': 'nosniff', 'Cache-Control': 'no-store' });

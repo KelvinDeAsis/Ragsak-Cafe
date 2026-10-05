@@ -1,5 +1,7 @@
 # Ragsak Manila Cafe
 
+> Historical handbook: this document and its PDF describe the earlier single-page Sites release. For the current three-page landing/menu/privacy implementation, source limitations, owner checklist, Cloudflare workflow and future reservation requirements, read [WEBSITE-UPDATE.md](WEBSITE-UPDATE.md). The old PDF has not been rebuilt for this update.
+
 Technical documentation and build handbook
 
 Prepared October 4, 2026 | Source: C:\KELVIN\Ragsak | Recorded release: version 3, private

@@ -1,0 +1,118 @@
+{
+  "reviewed": "2026-10-04",
+  "method": "EXIF orientation, RGB, full-frame proportional LANCZOS resize, WebP quality 85 / method 6",
+  "identification": "Broad visible categories only. Exact dish/drink names and ingredients unverified; see Docs/PHASE-3-PHOTOS.md.",
+  "photos": [
+    {
+      "source": {
+        "file": "images/menu/phase 3/a cup for your kind of day.jpeg",
+        "width": 1152,
+        "height": 1536,
+        "bytes": 326641,
+        "sha256": "a893dbba47a751827a378a168334fbff3322870a77710896d5a4ff66de8a3d76"
+      },
+      "use": "Coffee & drinks preview",
+      "variants": [
+        {
+          "file": "dist/assets/phase3-coffee-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 59366,
+          "sha256": "952f7472227c91aaa5f99451a57322a7f54710806953932ad86f3f5aaeb3a1cc"
+        },
+        {
+          "file": "dist/assets/phase3-coffee-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 149106,
+          "sha256": "e91f091a2b092e92ec5d317ec0e198677b211ee9d7e72b214e4bc65f972830c7"
+        }
+      ]
+    },
+    {
+      "source": {
+        "file": "images/menu/phase 3/pull up a chair.jpeg",
+        "width": 1536,
+        "height": 2048,
+        "bytes": 271514,
+        "sha256": "12dbb199afe83e26a4530388ef69962edbf28088f24ebc61d79d3976c873db85"
+      },
+      "use": "All-day breakfast category preview",
+      "variants": [
+        {
+          "file": "dist/assets/phase3-breakfast-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 55688,
+          "sha256": "affecc4d9112f3a40f9d15f2dbefa06bc2ee06e7c9f269c13c66abdafd23046f"
+        },
+        {
+          "file": "dist/assets/phase3-breakfast-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 156206,
+          "sha256": "125dc078c8a2f44008feba49c4b3d47462f7e3b3e013294130b19853ca13f4d2"
+        }
+      ]
+    },
+    {
+      "source": {
+        "file": "images/menu/phase 3/save room for something sweet.jpg",
+        "width": 1149,
+        "height": 1532,
+        "bytes": 208031,
+        "sha256": "7bda9eaa69e987366ae5d58cc53e8d974036cf2736cba1fa07c9158d5ab481aa"
+      },
+      "use": "Croissant category preview",
+      "variants": [
+        {
+          "file": "dist/assets/phase3-croissant-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 33216,
+          "sha256": "4590f9a13d0659456c7eed6cd06ea4acbeaaac317563cc66059954c4e72bef48"
+        },
+        {
+          "file": "dist/assets/phase3-croissant-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 75056,
+          "sha256": "65ee8b442c3a577f391d6b649b6791a8ac1bc16d63179850d7d2e5746ed6175e"
+        }
+      ]
+    },
+    {
+      "source": {
+        "file": "images/menu/phase 3/a little more  than a coffee.jpg",
+        "width": 1152,
+        "height": 1536,
+        "bytes": 485596,
+        "sha256": "e6627ba1a3e31e25d24548926e510e2b39cdec18315230e24db771397d8113b0"
+      },
+      "use": "A Closer Look: shared table and lamp",
+      "variants": [
+        {
+          "file": "dist/assets/phase3-table-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 91544,
+          "sha256": "72770986a272a87f4d3c420ef94ca1015b50ec6db2836fd9c4884184169f58b0"
+        },
+        {
+          "file": "dist/assets/phase3-table-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 266690,
+          "sha256": "491ca1c1ae47db3aa920eca9d6fd6bca558f38df9d223ec85945b046726c444a"
+        },
+        {
+          "file": "dist/assets/phase3-table-1152.webp",
+          "width": 1152,
+          "height": 1536,
+          "bytes": 324782,
+          "sha256": "fe3937bd5c15c5d808a1d9cb6a3d7417c00a256d947f5348ddb956b48dd39fbf"
+        }
+      ]
+    }
+  ]
+}

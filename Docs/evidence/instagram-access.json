@@ -1,0 +1,59 @@
+{
+  "reviewed": "2026-10-04",
+  "method": "Direct public browser access after initial web-fetch throttling",
+  "profile": {
+    "url": "https://www.instagram.com/ragsak.mnl.cafe/",
+    "status": 200,
+    "title": "RAGSAK MANILA CAFE (@ragsak.mnl.cafe) • Instagram photos and videos",
+    "bioHours": "10 AM to 1 AM"
+  },
+  "officialPosts": [
+    {
+      "url": "https://www.instagram.com/ragsak.mnl.cafe/p/DbP-ZPpCWL3/",
+      "status": 200,
+      "date": "2026-07-26",
+      "observations": {
+        "macedaAddress": "1276 Maceda St., Sampaloc, Manila",
+        "macedaPhone": "+63 917 157 1488",
+        "hours": "10 AM to 2 AM; last call 1:30 AM",
+        "otherLocationMentioned": true,
+        "visits": "Walk-in basis stated"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ragsak.mnl.cafe/reel/DbScHjUpdoC/",
+      "status": 200,
+      "date": "2026-07-27",
+      "observations": {
+        "hours": "10 AM to 1:30 AM",
+        "foodAndDrinkOffering": true,
+        "otherLocationMentioned": true
+      }
+    },
+    {
+      "url": "https://www.instagram.com/ragsak.mnl.cafe/reel/Dc5U1KxJrXT/",
+      "status": 200,
+      "date": "2026-09-04",
+      "observations": {
+        "hours": "10 AM to 1:30 AM",
+        "foodAndDrinkOffering": true,
+        "otherLocationMentioned": true
+      }
+    }
+  ],
+  "menuVerification": "No named menu row or current price verified from the reviewed captions; retain photo transcription with cautions",
+  "media": "Official carousel/reel links found; September 4 reel linked externally, with no embed or hosted video",
+  "uncertainties": [
+    "Conflicting hours across bio, posts and supplied photographs",
+    "Current menu/prices and image reuse permission",
+    "Intended branch scope; only Maceda presented"
+  ],
+  "reelPlayback": {
+    "url": "https://www.instagram.com/ragsak.mnl.cafe/reel/Dc5U1KxJrXT/",
+    "publicLoginPromptDismissed": true,
+    "readyState": 4,
+    "observedPlayingAtSeconds": 3.085597,
+    "durationSeconds": 32.06666666666667,
+    "noNewDishOrPriceInferred": true
+  }
+}

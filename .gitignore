@@ -1,6 +1,7 @@
 .sites-runtime/
 artifacts/
 node_modules/
+images/menu/sisig_files/
 .env
 .env.*
 !.env.example

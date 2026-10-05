@@ -1,0 +1,885 @@
+{
+  "date": "2026-10-04",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "dpr": 2,
+      "photos": [
+        {
+          "src": "phase3-coffee-960.webp",
+          "natural": [
+            288,
+            384
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            288,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-breakfast-960.webp",
+          "natural": [
+            288,
+            384
+          ],
+          "declared": [
+            1536,
+            2048
+          ],
+          "box": [
+            288,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 52%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-croissant-960.webp",
+          "natural": [
+            288,
+            384
+          ],
+          "declared": [
+            1149,
+            1532
+          ],
+          "box": [
+            288,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-table-960.webp",
+          "natural": [
+            288,
+            384
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            288,
+            380
+          ],
+          "fit": "cover",
+          "position": "50% 37%",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "x": 16,
+          "y": -1667.953125,
+          "href": "menu.html#espresso",
+          "target": ""
+        },
+        {
+          "x": 16,
+          "y": -1141.828125,
+          "href": "menu.html#breakfast",
+          "target": ""
+        },
+        {
+          "x": 16,
+          "y": -615.703125,
+          "href": "menu.html#croissants",
+          "target": ""
+        }
+      ],
+      "overflow": false,
+      "heading": "Make timeto gather.",
+      "copy": "A CLOSER LOOKMake timeto gather.A warm lamp, a patterned tabletop, and plates gathered together. A closer look at the little details around a shared table.Take a pause between errands, or make time for conversation over coffee. A little moment together can be the best part of the day.Find the caféAsk for the Menu ↗Watch a café moment on Instagram ↗"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "photos": [
+        {
+          "src": "phase3-coffee-960.webp",
+          "natural": [
+            351,
+            468
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            351,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-breakfast-960.webp",
+          "natural": [
+            351,
+            468
+          ],
+          "declared": [
+            1536,
+            2048
+          ],
+          "box": [
+            351,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 52%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-croissant-960.webp",
+          "natural": [
+            351,
+            468
+          ],
+          "declared": [
+            1149,
+            1532
+          ],
+          "box": [
+            351,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-table-960.webp",
+          "natural": [
+            351,
+            468
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            351,
+            380
+          ],
+          "fit": "cover",
+          "position": "50% 37%",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "x": 19.5,
+          "y": -1506.953125,
+          "href": "menu.html#espresso",
+          "target": ""
+        },
+        {
+          "x": 19.5,
+          "y": -980.828125,
+          "href": "menu.html#breakfast",
+          "target": ""
+        },
+        {
+          "x": 19.5,
+          "y": -454.703125,
+          "href": "menu.html#croissants",
+          "target": ""
+        }
+      ],
+      "overflow": false,
+      "heading": "Make timeto gather.",
+      "copy": "A CLOSER LOOKMake timeto gather.A warm lamp, a patterned tabletop, and plates gathered together. A closer look at the little details around a shared table.Take a pause between errands, or make time for conversation over coffee. A little moment together can be the best part of the day.Find the caféAsk for the Menu ↗Watch a café moment on Instagram ↗"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "dpr": 3,
+      "photos": [
+        {
+          "src": "phase3-coffee-960.webp",
+          "natural": [
+            387,
+            516
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            387,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-breakfast-960.webp",
+          "natural": [
+            387,
+            516
+          ],
+          "declared": [
+            1536,
+            2048
+          ],
+          "box": [
+            387,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 52%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-croissant-960.webp",
+          "natural": [
+            387,
+            516
+          ],
+          "declared": [
+            1149,
+            1532
+          ],
+          "box": [
+            387,
+            320
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-table-1152.webp",
+          "natural": [
+            387,
+            516
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            387,
+            380
+          ],
+          "fit": "cover",
+          "position": "50% 37%",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "x": 21.5,
+          "y": -1398.265625,
+          "href": "menu.html#espresso",
+          "target": ""
+        },
+        {
+          "x": 21.5,
+          "y": -904.765625,
+          "href": "menu.html#breakfast",
+          "target": ""
+        },
+        {
+          "x": 21.5,
+          "y": -411.265625,
+          "href": "menu.html#croissants",
+          "target": ""
+        }
+      ],
+      "overflow": false,
+      "heading": "Make timeto gather.",
+      "copy": "A CLOSER LOOKMake timeto gather.A warm lamp, a patterned tabletop, and plates gathered together. A closer look at the little details around a shared table.Take a pause between errands, or make time for conversation over coffee. A little moment together can be the best part of the day.Find the caféAsk for the Menu ↗Watch a café moment on Instagram ↗"
+    },
+    {
+      "width": 740,
+      "height": 360,
+      "dpr": 2,
+      "photos": [
+        {
+          "src": "phase3-coffee-960.webp",
+          "natural": [
+            666,
+            888
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            666,
+            496
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-breakfast-960.webp",
+          "natural": [
+            666,
+            888
+          ],
+          "declared": [
+            1536,
+            2048
+          ],
+          "box": [
+            666,
+            496
+          ],
+          "fit": "cover",
+          "position": "50% 52%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-croissant-960.webp",
+          "natural": [
+            666,
+            888
+          ],
+          "declared": [
+            1149,
+            1532
+          ],
+          "box": [
+            666,
+            496
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-table-1152.webp",
+          "natural": [
+            666,
+            888
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            666,
+            380
+          ],
+          "fit": "cover",
+          "position": "50% 37%",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "x": 37,
+          "y": -2156.265625,
+          "href": "menu.html#espresso",
+          "target": ""
+        },
+        {
+          "x": 37,
+          "y": -1486.96875,
+          "href": "menu.html#breakfast",
+          "target": ""
+        },
+        {
+          "x": 37,
+          "y": -817.671875,
+          "href": "menu.html#croissants",
+          "target": ""
+        }
+      ],
+      "overflow": false,
+      "heading": "Make timeto gather.",
+      "copy": "A CLOSER LOOKMake timeto gather.A warm lamp, a patterned tabletop, and plates gathered together. A closer look at the little details around a shared table.Take a pause between errands, or make time for conversation over coffee. A little moment together can be the best part of the day.Find the caféAsk for the Menu ↗Watch a café moment on Instagram ↗"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "dpr": 2,
+      "photos": [
+        {
+          "src": "phase3-coffee-480.webp",
+          "natural": [
+            230,
+            307
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            212,
+            280
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-breakfast-480.webp",
+          "natural": [
+            230,
+            307
+          ],
+          "declared": [
+            1536,
+            2048
+          ],
+          "box": [
+            212,
+            280
+          ],
+          "fit": "cover",
+          "position": "50% 52%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-croissant-480.webp",
+          "natural": [
+            230,
+            307
+          ],
+          "declared": [
+            1149,
+            1532
+          ],
+          "box": [
+            212,
+            280
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-table-960.webp",
+          "natural": [
+            345,
+            460
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            321,
+            430
+          ],
+          "fit": "cover",
+          "position": "50% 37%",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "x": 38.40625,
+          "y": -48.625,
+          "href": "menu.html#espresso",
+          "target": ""
+        },
+        {
+          "x": 278.125,
+          "y": -48.625,
+          "href": "menu.html#breakfast",
+          "target": ""
+        },
+        {
+          "x": 517.859375,
+          "y": -48.625,
+          "href": "menu.html#croissants",
+          "target": ""
+        }
+      ],
+      "overflow": false,
+      "heading": "Make timeto gather.",
+      "copy": "A CLOSER LOOKMake timeto gather.A warm lamp, a patterned tabletop, and plates gathered together. A closer look at the little details around a shared table.Take a pause between errands, or make time for conversation over coffee. A little moment together can be the best part of the day.Find the caféAsk for the Menu ↗Watch a café moment on Instagram ↗"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "photos": [
+        {
+          "src": "phase3-coffee-480.webp",
+          "natural": [
+            307,
+            409
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            289,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-breakfast-480.webp",
+          "natural": [
+            307,
+            409
+          ],
+          "declared": [
+            1536,
+            2048
+          ],
+          "box": [
+            289,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 52%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-croissant-480.webp",
+          "natural": [
+            307,
+            409
+          ],
+          "declared": [
+            1149,
+            1532
+          ],
+          "box": [
+            289,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-table-480.webp",
+          "natural": [
+            460,
+            614
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            415,
+            540
+          ],
+          "fit": "cover",
+          "position": "50% 37%",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "x": 51.203125,
+          "y": -625.734375,
+          "href": "menu.html#espresso",
+          "target": ""
+        },
+        {
+          "x": 367.734375,
+          "y": -625.734375,
+          "href": "menu.html#breakfast",
+          "target": ""
+        },
+        {
+          "x": 684.265625,
+          "y": -625.734375,
+          "href": "menu.html#croissants",
+          "target": ""
+        }
+      ],
+      "overflow": false,
+      "heading": "Make timeto gather.",
+      "copy": "A CLOSER LOOKMake timeto gather.A warm lamp, a patterned tabletop, and plates gathered together. A closer look at the little details around a shared table.Take a pause between errands, or make time for conversation over coffee. A little moment together can be the best part of the day.Find the caféAsk for the Menu ↗Watch a café moment on Instagram ↗"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "photos": [
+        {
+          "src": "phase3-coffee-480.webp",
+          "natural": [
+            407,
+            544
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            408,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-breakfast-480.webp",
+          "natural": [
+            407,
+            544
+          ],
+          "declared": [
+            1536,
+            2048
+          ],
+          "box": [
+            408,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 52%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-croissant-480.webp",
+          "natural": [
+            407,
+            544
+          ],
+          "declared": [
+            1149,
+            1532
+          ],
+          "box": [
+            408,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-table-960.webp",
+          "natural": [
+            576,
+            768
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            576,
+            540
+          ],
+          "fit": "cover",
+          "position": "50% 37%",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "x": 80,
+          "y": -638.640625,
+          "href": "menu.html#espresso",
+          "target": ""
+        },
+        {
+          "x": 516,
+          "y": -638.640625,
+          "href": "menu.html#breakfast",
+          "target": ""
+        },
+        {
+          "x": 952,
+          "y": -638.640625,
+          "href": "menu.html#croissants",
+          "target": ""
+        }
+      ],
+      "overflow": false,
+      "heading": "Make timeto gather.",
+      "copy": "A CLOSER LOOKMake timeto gather.A warm lamp, a patterned tabletop, and plates gathered together. A closer look at the little details around a shared table.Take a pause between errands, or make time for conversation over coffee. A little moment together can be the best part of the day.Find the caféAsk for the Menu ↗Watch a café moment on Instagram ↗"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "dpr": 2,
+      "photos": [
+        {
+          "src": "phase3-coffee-960.webp",
+          "natural": [
+            407,
+            544
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            408,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-breakfast-960.webp",
+          "natural": [
+            407,
+            544
+          ],
+          "declared": [
+            1536,
+            2048
+          ],
+          "box": [
+            408,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 52%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-croissant-960.webp",
+          "natural": [
+            407,
+            544
+          ],
+          "declared": [
+            1149,
+            1532
+          ],
+          "box": [
+            408,
+            350
+          ],
+          "fit": "cover",
+          "position": "50% 70%",
+          "loaded": true
+        },
+        {
+          "src": "phase3-table-1152.webp",
+          "natural": [
+            576,
+            768
+          ],
+          "declared": [
+            1152,
+            1536
+          ],
+          "box": [
+            576,
+            540
+          ],
+          "fit": "cover",
+          "position": "50% 37%",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "x": 320,
+          "y": -561.078125,
+          "href": "menu.html#espresso",
+          "target": ""
+        },
+        {
+          "x": 756,
+          "y": -561.078125,
+          "href": "menu.html#breakfast",
+          "target": ""
+        },
+        {
+          "x": 1192,
+          "y": -561.078125,
+          "href": "menu.html#croissants",
+          "target": ""
+        }
+      ],
+      "overflow": false,
+      "heading": "Make timeto gather.",
+      "copy": "A CLOSER LOOKMake timeto gather.A warm lamp, a patterned tabletop, and plates gathered together. A closer look at the little details around a shared table.Take a pause between errands, or make time for conversation over coffee. A little moment together can be the best part of the day.Find the caféAsk for the Menu ↗Watch a café moment on Instagram ↗"
+    }
+  ],
+  "navigation": [
+    {
+      "device": "mobile",
+      "category": "espresso",
+      "sameTab": true
+    },
+    {
+      "device": "mobile",
+      "category": "breakfast",
+      "sameTab": true
+    },
+    {
+      "device": "mobile",
+      "category": "croissants",
+      "sameTab": true
+    },
+    {
+      "device": "desktop",
+      "category": "espresso",
+      "sameTab": true
+    },
+    {
+      "device": "desktop",
+      "category": "breakfast",
+      "sameTab": true
+    },
+    {
+      "device": "desktop",
+      "category": "croissants",
+      "sameTab": true
+    }
+  ],
+  "accessibility": [
+    {
+      "mode": "reduced-motion",
+      "overflow": false,
+      "loaded": true,
+      "visible": true,
+      "fontSize": "16px"
+    },
+    {
+      "mode": "no-script",
+      "overflow": false,
+      "loaded": true,
+      "visible": true,
+      "fontSize": "16px"
+    },
+    {
+      "mode": "text200-mobile",
+      "overflow": false,
+      "loaded": true,
+      "visible": true,
+      "fontSize": "32px"
+    },
+    {
+      "mode": "text200-desktop",
+      "overflow": false,
+      "loaded": true,
+      "visible": true,
+      "fontSize": "32px"
+    }
+  ],
+  "errors": [],
+  "result": "passed"
+}

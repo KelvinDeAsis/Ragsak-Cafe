@@ -1,0 +1,420 @@
+{
+  "date": "2026-10-04",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 569,
+      "nextTop": 569,
+      "cueBottom": 557
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 641,
+      "nextTop": 641,
+      "cueBottom": 629
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 668,
+      "nextTop": 668,
+      "cueBottom": 656
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 845,
+      "nextTop": 845,
+      "cueBottom": 831
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 916,
+      "nextTop": 916,
+      "cueBottom": 902
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 933,
+      "nextTop": 933,
+      "cueBottom": 919
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 321.1875,
+      "nextTop": 321.1875,
+      "cueBottom": 309.1875
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 376,
+      "nextTop": 376,
+      "cueBottom": 364
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 740,
+      "height": 360,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 361,
+      "nextTop": 361,
+      "cueBottom": 349
+    },
+    {
+      "width": 740,
+      "height": 360,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 740,
+      "height": 360,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 1025,
+      "nextTop": 1025,
+      "cueBottom": 1007
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 1181,
+      "nextTop": 1181,
+      "cueBottom": 1163
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 769,
+      "nextTop": 769,
+      "cueBottom": 751
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 721,
+      "nextTop": 721,
+      "cueBottom": 709
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 769,
+      "nextTop": 769,
+      "cueBottom": 751
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 901,
+      "nextTop": 901,
+      "cueBottom": 883
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 865,
+      "nextTop": 865,
+      "cueBottom": 847
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "path": "/",
+      "issues": [],
+      "overflow": 0,
+      "heroBottom": 1081,
+      "nextTop": 1081,
+      "cueBottom": 1063
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "path": "/menu.html",
+      "issues": [],
+      "overflow": 0
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "path": "/privacy.html",
+      "issues": [],
+      "overflow": 0
+    }
+  ],
+  "errors": [],
+  "interactions": [],
+  "sourceLimitations": [
+    "Instagram web fetch was throttled; direct browser access later verified official captions. Facebook blocked fresh fetching. Menu prices are photo transcriptions requiring current confirmation.",
+    "External navigation checked with intercepted destination responses; provider uptime and OS dialer behavior not asserted."
+  ],
+  "heroFollowUp": "Cinematic wall-sign hero installed; see hero-replacement.json for 17 follow-up viewport checks and updated screenshots."
+}

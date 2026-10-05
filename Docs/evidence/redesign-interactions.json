@@ -1,0 +1,514 @@
+{
+  "date": "2026-10-04",
+  "accessibility": [
+    {
+      "mode": "desktop",
+      "keyboardSkip": "passed"
+    },
+    {
+      "mode": "mobile",
+      "keyboardSkip": "passed"
+    },
+    {
+      "mode": "landscape-touch",
+      "keyboardSkip": "passed"
+    },
+    {
+      "width": 320,
+      "path": "/",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 16,
+          "right": 134.671875
+        },
+        {
+          "left": 200.90625,
+          "right": 304
+        },
+        {
+          "left": 16,
+          "right": 101.703125
+        },
+        {
+          "left": 218.25,
+          "right": 304
+        }
+      ],
+      "next": 1382.640625
+    },
+    {
+      "width": 320,
+      "path": "/menu.html",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 16,
+          "right": 134.671875
+        },
+        {
+          "left": 200.90625,
+          "right": 304
+        },
+        {
+          "left": 16,
+          "right": 101.703125
+        },
+        {
+          "left": 218.25,
+          "right": 304
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "path": "/privacy.html",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 16,
+          "right": 134.671875
+        },
+        {
+          "left": 200.90625,
+          "right": 304
+        },
+        {
+          "left": 16,
+          "right": 101.703125
+        },
+        {
+          "left": 218.25,
+          "right": 304
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 19.5,
+          "right": 138.171875
+        },
+        {
+          "left": 159.9375,
+          "right": 263.03125
+        },
+        {
+          "left": 284.796875,
+          "right": 370.5
+        },
+        {
+          "left": 19.5,
+          "right": 105.25
+        }
+      ],
+      "next": 1382.640625
+    },
+    {
+      "width": 390,
+      "path": "/menu.html",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 19.5,
+          "right": 138.171875
+        },
+        {
+          "left": 159.9375,
+          "right": 263.03125
+        },
+        {
+          "left": 284.796875,
+          "right": 370.5
+        },
+        {
+          "left": 19.5,
+          "right": 105.25
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "path": "/privacy.html",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 19.5,
+          "right": 138.171875
+        },
+        {
+          "left": 159.9375,
+          "right": 263.03125
+        },
+        {
+          "left": 284.796875,
+          "right": 370.5
+        },
+        {
+          "left": 19.5,
+          "right": 105.25
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 38.40625,
+          "right": 172.28125
+        },
+        {
+          "left": 192.28125,
+          "right": 308.59375
+        },
+        {
+          "left": 328.59375,
+          "right": 425.28125
+        },
+        {
+          "left": 445.28125,
+          "right": 542.015625
+        }
+      ],
+      "next": 1288.453125
+    },
+    {
+      "width": 768,
+      "path": "/menu.html",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 38.40625,
+          "right": 172.28125
+        },
+        {
+          "left": 192.28125,
+          "right": 308.59375
+        },
+        {
+          "left": 328.59375,
+          "right": 425.28125
+        },
+        {
+          "left": 445.28125,
+          "right": 542.015625
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "path": "/privacy.html",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 38.40625,
+          "right": 172.28125
+        },
+        {
+          "left": 192.28125,
+          "right": 308.59375
+        },
+        {
+          "left": 328.59375,
+          "right": 425.28125
+        },
+        {
+          "left": 445.28125,
+          "right": 542.015625
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 772.390625,
+          "right": 906.265625
+        },
+        {
+          "left": 954.265625,
+          "right": 1070.578125
+        },
+        {
+          "left": 1118.578125,
+          "right": 1215.265625
+        },
+        {
+          "left": 1263.265625,
+          "right": 1360
+        }
+      ],
+      "next": 1039.390625
+    },
+    {
+      "width": 1440,
+      "path": "/menu.html",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 772.390625,
+          "right": 906.265625
+        },
+        {
+          "left": 954.265625,
+          "right": 1070.578125
+        },
+        {
+          "left": 1118.578125,
+          "right": 1215.265625
+        },
+        {
+          "left": 1263.265625,
+          "right": 1360
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "path": "/privacy.html",
+      "mode": "text200",
+      "rootFont": "32px",
+      "overflow": 0,
+      "nav": [
+        {
+          "left": 772.390625,
+          "right": 906.265625
+        },
+        {
+          "left": 954.265625,
+          "right": 1070.578125
+        },
+        {
+          "left": 1118.578125,
+          "right": 1215.265625
+        },
+        {
+          "left": 1263.265625,
+          "right": 1360
+        }
+      ]
+    },
+    {
+      "mode": "reduced-motion",
+      "path": "/",
+      "scrollBehavior": "auto",
+      "hidden": 0,
+      "menuRows": 0
+    },
+    {
+      "mode": "reduced-motion",
+      "path": "/menu.html",
+      "scrollBehavior": "auto",
+      "hidden": 0,
+      "menuRows": 45
+    },
+    {
+      "mode": "reduced-motion",
+      "path": "/privacy.html",
+      "scrollBehavior": "auto",
+      "hidden": 0,
+      "menuRows": 0
+    },
+    {
+      "mode": "nojs",
+      "path": "/",
+      "scrollBehavior": "smooth",
+      "hidden": 0,
+      "menuRows": 0
+    },
+    {
+      "mode": "nojs",
+      "path": "/menu.html",
+      "scrollBehavior": "smooth",
+      "hidden": 0,
+      "menuRows": 45
+    },
+    {
+      "mode": "nojs",
+      "path": "/privacy.html",
+      "scrollBehavior": "smooth",
+      "hidden": 0,
+      "menuRows": 0
+    }
+  ],
+  "navigation": [
+    {
+      "mode": "desktop",
+      "scrollTransition": "native smooth scroll, intermediate positions observed"
+    },
+    {
+      "mode": "desktop",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=1276%20Maceda%20Street%2C%20Barangay%20514%2C%20Sampaloc%2C%20Manila",
+      "behavior": "new tab, original retained"
+    },
+    {
+      "mode": "desktop",
+      "href": "https://www.instagram.com/ragsak.mnl.cafe/",
+      "behavior": "new tab, original retained"
+    },
+    {
+      "mode": "desktop",
+      "href": "https://www.facebook.com/p/Ragsak-Manila-Cafe-61554814388739/",
+      "behavior": "new tab, original retained"
+    },
+    {
+      "mode": "desktop",
+      "href": "https://www.instagram.com/ragsak.mnl.cafe/reel/Dc5U1KxJrXT/",
+      "behavior": "new tab, original retained"
+    },
+    {
+      "mode": "mobile",
+      "scrollTransition": "native smooth scroll, intermediate positions observed"
+    },
+    {
+      "mode": "mobile",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=1276%20Maceda%20Street%2C%20Barangay%20514%2C%20Sampaloc%2C%20Manila",
+      "behavior": "same tab, Back returned"
+    },
+    {
+      "mode": "mobile",
+      "href": "https://www.instagram.com/ragsak.mnl.cafe/",
+      "behavior": "same tab, Back returned"
+    },
+    {
+      "mode": "mobile",
+      "href": "https://www.facebook.com/p/Ragsak-Manila-Cafe-61554814388739/",
+      "behavior": "same tab, Back returned"
+    },
+    {
+      "mode": "mobile",
+      "href": "https://www.instagram.com/ragsak.mnl.cafe/reel/Dc5U1KxJrXT/",
+      "behavior": "same tab, Back returned"
+    },
+    {
+      "mode": "landscape-touch",
+      "scrollTransition": "native smooth scroll, intermediate positions observed"
+    },
+    {
+      "mode": "landscape-touch",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=1276%20Maceda%20Street%2C%20Barangay%20514%2C%20Sampaloc%2C%20Manila",
+      "behavior": "same tab, Back returned"
+    },
+    {
+      "mode": "landscape-touch",
+      "href": "https://www.instagram.com/ragsak.mnl.cafe/",
+      "behavior": "same tab, Back returned"
+    },
+    {
+      "mode": "landscape-touch",
+      "href": "https://www.facebook.com/p/Ragsak-Manila-Cafe-61554814388739/",
+      "behavior": "same tab, Back returned"
+    },
+    {
+      "mode": "landscape-touch",
+      "href": "https://www.instagram.com/ragsak.mnl.cafe/reel/Dc5U1KxJrXT/",
+      "behavior": "same tab, Back returned"
+    }
+  ],
+  "images": [
+    {
+      "mode": "desktop",
+      "path": "/",
+      "loaded": 9,
+      "allRevealsVisible": true
+    },
+    {
+      "mode": "desktop",
+      "path": "/menu.html",
+      "loaded": 4,
+      "allRevealsVisible": true
+    },
+    {
+      "mode": "desktop",
+      "path": "/privacy.html",
+      "loaded": 1,
+      "allRevealsVisible": true
+    },
+    {
+      "mode": "mobile",
+      "path": "/",
+      "loaded": 9,
+      "allRevealsVisible": true
+    },
+    {
+      "mode": "mobile",
+      "path": "/menu.html",
+      "loaded": 4,
+      "allRevealsVisible": true
+    },
+    {
+      "mode": "mobile",
+      "path": "/privacy.html",
+      "loaded": 1,
+      "allRevealsVisible": true
+    },
+    {
+      "mode": "landscape-touch",
+      "path": "/",
+      "loaded": 9,
+      "allRevealsVisible": true
+    },
+    {
+      "mode": "landscape-touch",
+      "path": "/menu.html",
+      "loaded": 4,
+      "allRevealsVisible": true
+    },
+    {
+      "mode": "landscape-touch",
+      "path": "/privacy.html",
+      "loaded": 1,
+      "allRevealsVisible": true
+    }
+  ],
+  "privacy": [
+    {
+      "mode": "desktop",
+      "noThirdPartyLoads": true,
+      "cookies": 0,
+      "browserStorage": 0
+    },
+    {
+      "mode": "mobile",
+      "noThirdPartyLoads": true,
+      "cookies": 0,
+      "browserStorage": 0
+    },
+    {
+      "mode": "landscape-touch",
+      "noThirdPartyLoads": true,
+      "cookies": 0,
+      "browserStorage": 0
+    }
+  ],
+  "errors": []
+}

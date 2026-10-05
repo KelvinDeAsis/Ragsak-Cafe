@@ -1,0 +1,28 @@
+{
+  "reviewed": "2026-10-04",
+  "status": "Photograph transcription; current availability, prices, currency and reuse permission need owner confirmation",
+  "unresolved": ["One frappe row appears to read CAMPIRE WHITE MOCHA (195 / 205). Exact spelling needs confirmation; excluded from text, visible in source photo.", "Breakfast photo lists 10 AM to 1 AM; drinks photo lists 10 AM to 1:30 AM. No definitive hours displayed."],
+  "categories": [
+    {"id":"breakfast","title":"All-day breakfast","source":"images/menu/all day breakfast.jpg","photo":"breakfast-menu.webp","columns":["Price in photo"],"note":"Names and figures transcribed from the supplied breakfast menu photo.","items":[
+      ["Pork Tocino",200],["Corned Beef",210],["Crispy Pork Liempo",225],["Pork Sisig",220],["Bacon Americano",210],["Beef Tapa",230],["Boneless Bangus",220],["Crispy Fried Chicken",225],["Double Hungarian Sausage",220],["Garlic Longganisa",200]
+    ]},
+    {"id":"espresso","title":"Espresso","source":"images/menu/drinks.jpg","photo":"drinks-menu.webp","columns":["Hot 12 oz","Cold 16 oz","Cold 22 oz"],"note":"Drink names, sizes, and figures follow the supplied drinks photo, including its Chocolate (No Coffee) entry.","items":[
+      ["Americano",80,90,100],["Coffee Latte",120,140,150],["French Vanilla",130,165,185],["Cafe Mocha",135,160,180],["Caramel Macchiato",135,160,180],["White Chocolate Mocha",135,165,185],["Spanish Latte",125,160,180],["Salted Caramel Macchiato",135,160,180],["Butterscotch Latte",130,160,180],["Matcha Cafe",140,180,195],["Chocolate (No Coffee)",130,165,185]
+    ]},
+    {"id":"frappe","title":"Frappé","source":"images/menu/drinks.jpg","photo":"drinks-menu.webp","columns":["Cold 16 oz","Cold 22 oz"],"note":"One additional photographed frappé name needs confirmation and is available to read in the original photo below.","items":[
+      ["Triple Mocha Frappe",170,185],["White Chocolate Mocha",175,185],["Mocha Almond Frappe",175,185],["Coffee Jelly Mocha",185,195],["Salted Caramel Frappe",185,195],["Butterscotch Sea Salt",200,215],["Matcha Frappe",200,215],["Strawberry Vanilla",200,215]
+    ]},
+    {"id":"refreshments","title":"Refreshments","source":"images/menu/drinks.jpg","photo":"drinks-menu.webp","columns":["Cold 16 oz","Cold 22 oz"],"note":"From the supplied drinks menu photo.","items":[
+      ["Guava Cucumber",135,150],["Lychee Blossom",135,150],["Pineapple Sunshine",140,155],["Sampaloc Sunrise",140,155]
+    ]},
+    {"id":"signature","title":"Signature drinks","source":"images/menu/drinks.jpg","photo":"drinks-menu.webp","columns":["Cold 16 oz","Cold 22 oz"],"note":"From the supplied drinks menu photo. Ingredient and allergen details should be checked with the café.","items":[
+      ["Banoffee Iced Latte",185,200],["Smores Iced Mocha",175,190],["Nutella Iced Mocha",195,215],["Biscoff Cream Latte",210,225],["Milo Dragon",185,200]
+    ]},
+    {"id":"non-coffee","title":"Non-coffee","source":"images/menu/drinks.jpg","photo":"drinks-menu.webp","columns":["Cold 16 oz","Cold 22 oz"],"note":"From the supplied drinks menu photo.","items":[
+      ["Strawberry Au Lait",150,165],["Strawberry Matcha",165,180],["Matcha Latte",165,180],["Korean Banana",150,165]
+    ]},
+    {"id":"croissants","title":"Croissant Collection","source":"https://www.facebook.com/photo/?fbid=122284165532160479","photo":"menu-960.webp","columns":["Price in photo"],"note":"From the earlier official Croissant Collection photograph recorded in the project’s source review. These historical prices may have changed.","items":[
+      ["Pistachio Kataifi Royale","₱280"],["Nutella Almond Indulgence","₱260"],["Biscoff Cookie Butter Bliss","₱260"]
+    ]}
+  ]
+}

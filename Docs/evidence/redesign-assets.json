@@ -1,0 +1,64 @@
+{
+  "reviewed": "2026-10-04",
+  "requestedHero": {
+    "folder": "images/menu",
+    "fileFound": true,
+    "source": {
+      "file": "images/menu/ragsak bg.jpg",
+      "bytes": 384907,
+      "sha256": "b197800e4c1a756ae3b3e7b750cfa4e3a1575f92c482c21ee592ffd94954ca41"
+    },
+    "variants": [
+      {
+        "file": "dist/assets/hero-sign-640.webp",
+        "bytes": 73100,
+        "sha256": "0cfe7e10b008a85a235d905ec41de7f9da0e4d76078ba02570f3e1a0d367329b"
+      },
+      {
+        "file": "dist/assets/hero-sign-960.webp",
+        "bytes": 143562,
+        "sha256": "bbb38eddb70b0a561abb4340b1da74b9a678f9cfa0d2814052db106e04bf661c"
+      },
+      {
+        "file": "dist/assets/hero-sign-1536.webp",
+        "bytes": 262886,
+        "sha256": "12d8610e9ffc3bdd607067f3b88fb0ba402f738f7df046521491255d97807c9c"
+      }
+    ],
+    "currentAsset": "dist/assets/hero-sign-1536.webp",
+    "status": "User-selected wall sign installed in cinematic hero; original preserved; 17 viewport checks passed",
+    "permission": "Owner/source reuse confirmation remains pending"
+  },
+  "menuPhotos": [
+    {
+      "source": {
+        "file": "images/menu/all day breakfast.jpg",
+        "bytes": 231467,
+        "sha256": "466cefc9781454f3613a3bfd5e5063a114f8f6ddcbf0e13d3438fb3dbba36c45"
+      },
+      "webp": {
+        "file": "dist/assets/breakfast-menu.webp",
+        "bytes": 341302,
+        "sha256": "823f4688f4722ac49985bd14b56d5cf24945a4c887aa1389c8a91c8e42430048"
+      },
+      "fullFrame": true,
+      "originalWatermarkRetained": true,
+      "permission": "Needs confirmation"
+    },
+    {
+      "source": {
+        "file": "images/menu/drinks.jpg",
+        "bytes": 224060,
+        "sha256": "786af1df49025efc7cc8161c71380613621b98c3931eb6573fb71891a8e3db70"
+      },
+      "webp": {
+        "file": "dist/assets/drinks-menu.webp",
+        "bytes": 328594,
+        "sha256": "ae25bcc51a7b8ca5db99477a771de6b547c21b31f51f58c385390adaaf270bc2"
+      },
+      "fullFrame": true,
+      "originalWatermarkRetained": true,
+      "permission": "Needs confirmation"
+    }
+  ]
+}

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node scripts/serve.mjs",
     "sync:csp": "node scripts/sync-csp.mjs",
-    "check": "node scripts/check-site.mjs && node --test tests/site.test.mjs"
+    "sync:menu": "node scripts/sync-menu.mjs",
+    "check": "node scripts/sync-menu.mjs --check && node scripts/check-site.mjs && node --test tests/site.test.mjs"
   },
   "engines": { "node": ">=22" }
 }

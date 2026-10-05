@@ -1,78 +1,72 @@
-# Ragsak website: use, edit, and publish
+# Edit and update the Cloudflare website
 
-Reviewed October 4, 2026 (Asia/Shanghai).
+Updated October 4, 2026. The local Git remote is `https://github.com/KelvinDeAsis/Ragsak-Cafe.git`; the working branch is `main`. The user has reported a Cloudflare deployment. Its actual public URL and dashboard settings have not been inspected during this update. The former private Sites release is historical and does not automatically update when GitHub changes.
 
-## Open the cloud website
+## Preview and check
 
-[Ragsak Manila Cafe](https://ragsak-manila-cafe.kelvindeasis2323.chatgpt.site)
-
-The existing site belongs to your account and is private. Sign in using its owner account to review it. Deployment and public sharing are separate settings; the review release preserves private access.
-
-To make it available to customers, confirm current business details and photo reuse with the cafe, then tell Codex: “Make the existing Ragsak website public for customers.” Codex should change access on this same site, remove the private noindex directive, replace the private robots policy, add a sitemap, validate, and redeploy. Sending the private URL to a customer does not grant them access. Do not create a second site for this change.
-
-## Preview locally
-
-Open PowerShell and run:
+1. Open the **whole** `C:\KELVIN\Ragsak` folder in VS Code.
+2. Edit the files listed in `README.md`. Save them. If changing menu rows, update their evidence in `Docs/evidence/menu-transcription.json`, then run `npm run sync:menu`.
+3. In the VS Code terminal, run:
 
 ```powershell
 Set-Location 'C:\KELVIN\Ragsak'
-npm start
-```
-
-Open `http://127.0.0.1:4187/`. Keep the terminal running during review. Refresh the browser after editing. Press Ctrl+C when finished. If this port is already in use, stop your earlier preview, or use a different local port:
-
-```powershell
-$env:PORT = '4188'
-npm start
-```
-
-The preview runs on your computer only; stopping it does not stop the cloud website. No `npm install` or `npm run build` is needed for this project.
-
-## Edit the site
-
-| Change | File |
-|---|---|
-| Text, menu details, address, hours, phone, and links | `dist/index.html` |
-| Colors, spacing, font sizes, mobile layouts, and photo crops | `dist/style.css` |
-| Scroll reveals, reduced motion, and copyright year | `dist/site.js` |
-| Photos and locally hosted fonts | `dist/assets/` |
-| Missing-page message | `dist/404.html` |
-| Business evidence and photo source URLs | `OWNER-REVIEW.md` |
-
-Update every occurrence of an address or phone number, including the footer, Maps links, and the JSON-LD business data near the bottom of `index.html`. Keep canonical and business URLs aligned with the actual site address. Maintain descriptive alt text, width/height, and responsive image candidates when replacing photos. The current gallery and menu photos link to their recorded source posts.
-
-After changing the JSON-LD block, refresh its security hash:
-
-```powershell
-npm run sync:csp
-```
-
-Then check the site:
-
-```powershell
 npm run check
+npm start
 ```
 
-Check on your phone as well as desktop. Test View Menu, the menu photograph, Find us, Get Directions, the phone link, keyboard navigation, and Back to top. Check with enlarged text. A passing automated check does not verify that business information is current.
+4. Open the printed local URL. Check desktop and phone widths, landing/menu/privacy pages, phone/maps/social links, and the exact footer disclaimer. `127.0.0.1` previews your computer; it is not the public Cloudflare address.
+5. Resolve the remaining owner/hero/photo items in [Docs/WEBSITE-UPDATE.md](Docs/WEBSITE-UPDATE.md). Do not replace the requested hero with an unrelated image or claim a booking system exists.
 
-## Publish future updates
+## Save the changes to GitHub
 
-Local edits are not automatically published. In this chat, ask: “Review my changes in C:\KELVIN\Ragsak and redeploy the existing Ragsak site, preserving its current access.”
+In a second terminal, review what will be uploaded:
 
-Codex will open the existing site identified by `.openai/hosting.json`, run the relevant checks, push the exact source state, package `dist/`, and publish a saved version. Deployment is complete only when the hosting service reports success. Keep `.openai/hosting.json` linked to the existing site. Never add secrets to `dist/`, source control, screenshots, or documentation. This static site does not need API keys.
+```powershell
+Set-Location 'C:\KELVIN\Ragsak'
+git status
+git diff --stat
+git diff
+```
 
-## Before public launch
+After reviewing the edits, stage the website, source records, tools, and documentation:
 
-1. Confirm the address and phone with the cafe.
-2. Confirm opening days, closing time, and holiday hours. The recorded 10am–1am listing was not freshly verifiable during this review.
-3. Obtain the current complete menu. Approve item names, prices, and availability. The existing photo contains historical prices and the page now warns visitors about that.
-4. Confirm permission to reuse the logo and selected photos. Official profile attribution alone is not proof of reuse rights.
-5. Choose public access and publish the corresponding indexing changes.
+```powershell
+git add dist scripts tests package.json README.md DEPLOYMENT-GUIDE.md OWNER-REVIEW.md REVIEW-REPORT.md Docs images
+git diff --cached --stat
+git commit -m "Improve Ragsak landing page, menu and privacy notice"
+git push origin main
+git log -1 --oneline
+```
 
-## Custom domain and recovery
+The text in quotes after `-m` is simply a short description of the saved changes. Do not type documentation into that field. A commit saves a local version; a push uploads that version to GitHub. Record the latest commit ID so you can compare it with Cloudflare.
 
-You can keep the supplied cloud address. For a domain you already own, send Codex the exact domain; it can request the site's domain mapping and provide the DNS records returned by the host. Do not guess DNS targets. Keep the current URL until the host verifies the domain and HTTPS certificate; then update the canonical, business URL, robots/sitemap URLs, and redeploy.
+If `git status` says there is nothing to commit, saved files may already be committed; check the latest commit and GitHub before retrying. If a push is rejected, fetch and inspect the remote changes; do not use a force push. Resolve the history difference before publishing.
 
-If a release breaks navigation, images, or access, ask Codex to redeploy the last working saved version on this same site. The review started from saved version 2, source commit `d830f90fd16f9b28bc2210c9cfd6c55ce517e6fa`. Reverting local files alone does not roll back the hosted version. Use hosting version history, confirm successful deployment, and preserve the intended audience.
+## Cloudflare Pages settings and automatic updates
 
-The site has no ordering, reservation, payment, contact form, database, analytics, or automated business-content refresh. Its menu and visit information need manual updates when the cafe changes them.
+For this static project the expected configuration is:
+
+| Setting | Value |
+|---|---|
+| Source repository | `KelvinDeAsis/Ragsak-Cafe` |
+| Production branch | `main` |
+| Root directory | Repository root |
+| Framework preset | None |
+| Build command | Blank; the checked-in site requires no build |
+| Build output directory | `dist` |
+
+If Cloudflare Pages is connected to this repository and automatic production deployments are enabled, pushing a new commit to `main` triggers deployment. Usually you do not need to click Redeploy. Open Workers & Pages → your Pages project → Deployments, and verify that the **new** deployment uses the commit ID printed by `git log -1 --oneline`.
+
+After that deployment succeeds, open the production `pages.dev` address or configured custom domain. Verify the menu and privacy pages and use Ctrl+Shift+R if your browser shows cached files. Retrying an old successful deployment can redeploy old code, so always compare the source commit.
+
+If the project was created by direct upload instead of Git integration, a GitHub push will not update it. Upload the contents of the checked `dist` folder as a new deployment, or configure a Git-integrated Pages project deliberately. The full repository belongs on GitHub; only `dist` is public website content. Never serve `Docs`, `images`, `.git`, or local artifacts as the website root.
+
+## Public concept and privacy
+
+The site identifies itself as an independent proposal on every page. It uses `noindex, nofollow` and a restrictive robots file; a public URL can still be visited, but search indexing is intentionally discouraged. Reconsider indexing and absolute canonical/social metadata only when the actual public domain and publication status are confirmed. Keep the concept disclaimer unless the owner explicitly authorizes an official site and the content is reviewed.
+
+The source files add no analytics. Check Cloudflare settings separately before making privacy claims about host-level services. Update `privacy.html` if analytics, forms, embeds, or a booking service is actually added.
+
+## Rollback
+
+Choose a previously working production deployment in Cloudflare, or revert the offending Git commit, check the result and push the revert. Compare the resulting deployment commit and public page. Keep your source history; avoid force pushes or deleting work to perform a rollback.

@@ -1,13 +1,14 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 
-const filename = 'dist/index.html';
-const html = readFileSync(filename, 'utf8');
-const ld = html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)?.[1];
-if (!ld) throw new Error('Missing local business structured data');
-JSON.parse(ld);
-const hash = createHash('sha256').update(ld).digest('base64');
-const updated = html.replace(/'sha256-[A-Za-z0-9+/=]+'/, `'sha256-${hash}'`);
-if (updated === html && !html.includes(`'sha256-${hash}'`)) throw new Error('Missing CSP hash');
-if (updated !== html) writeFileSync(filename, updated);
-console.log('Structured data CSP hash is up to date.');
+for (const file of readdirSync('dist').filter(file => file.endsWith('.html'))) {
+  const filename = `dist/${file}`;
+  const html = readFileSync(filename, 'utf8');
+  const hashes = [...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(match => {
+    JSON.parse(match[1]);
+    return `'sha256-${createHash('sha256').update(match[1]).digest('base64')}'`;
+  });
+  const updated = html.replace(/script-src 'self'(?: 'sha256-[A-Za-z0-9+/=]+')*/, `script-src 'self'${hashes.length ? ' ' + hashes.join(' ') : ''}`);
+  if (updated !== html) writeFileSync(filename, updated);
+}
+console.log('All HTML content security policies synchronized. No business schema is asserted for this independent concept.');

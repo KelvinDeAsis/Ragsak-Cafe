@@ -1,13 +1,19 @@
 # Ragsak documentation
 
-Start with [the illustrated PDF handbook](Ragsak-Technical-Documentation.pdf). The same content is editable in [the Markdown source](Ragsak-Technical-Documentation.md).
+Start with [the current website update and checklist](WEBSITE-UPDATE.md) for the landing page, separate menu/privacy pages, source limitations, and future reservation requirements. See [the current review report](../REVIEW-REPORT.md) and [Cloudflare update guide](../DEPLOYMENT-GUIDE.md).
 
-This documentation describes the source and recorded private deployment reviewed on October 4, 2026. It does not change or publish the website. The release is version 3, source commit `a28583be1ffb58736657525245dadc208bc5bc0c`.
+The [illustrated PDF handbook](Ragsak-Technical-Documentation.pdf) and its [Markdown source](Ragsak-Technical-Documentation.md) are a historical snapshot of the earlier single-page build. They have not been regenerated for this update. Their diagram, deployment and menu descriptions should not be treated as the current implementation.
+
+That historical handbook records the private Sites deployment, version 3, source commit `a28583be1ffb58736657525245dadc208bc5bc0c`. The user later deployed through Cloudflare; the current public URL/dashboard settings have not been inspected. Documentation changes do not publish the website.
 
 ## Contents
 
 | File/folder | Purpose |
 |---|---|
+| [Current website update](WEBSITE-UPDATE.md) | Completed changes, current system design, outstanding facts/assets, and future ideas |
+| [Phase 3 photographs](PHASE-3-PHOTOS.md) | Photo-to-category mapping, optimization, current section screenshots, and uncertain item identities |
+| [Menu transcription](evidence/menu-transcription.json) | Reviewed menu names, printed figures, source references, and uncertainties; input to `npm run sync:menu` |
+| `evidence/redesign-*.json` and `redesign-*.png` | Current browser validation and screenshots |
 | [PDF handbook](Ragsak-Technical-Documentation.pdf) | Complete build history, system design, content model, workflow, review, release, and maintenance handbook |
 | [Markdown source](Ragsak-Technical-Documentation.md) | Editable source for the handbook |
 | `diagrams/` | Four architecture, content-model, runtime-flow, and development-workflow diagrams, each as PNG and SVG |
